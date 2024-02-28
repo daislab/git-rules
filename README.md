@@ -28,4 +28,14 @@ DAIS protocol for contributions. Here you can find the guidelines for participat
 
  -  3.3 Remove branch
 
+ Once the issue is closed and the changes have been passed to the main branch you can delete the branch. 
+ First, delete the branch locally using the following command:
 
+ > git branch -d \<branch-name\>
+
+Then push this action to remote repository:
+
+> git push origin -d \<branch-name\>
+
+
+ 
