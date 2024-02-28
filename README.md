@@ -15,10 +15,12 @@ DAIS protocol for contributions. Here you can find the guidelines for participat
 
 1. Create a branch -- associate with an issue
 
-2. In-branch commits
+   [steps](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
+
+3. In-branch commits
 
 
-3. Passing updates to main
+4. Passing updates to main
 
  -  3.1 Clean commits
 
