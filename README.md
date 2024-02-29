@@ -32,6 +32,9 @@ Specify the name of the branch
 
 > git checkout -b \＜new-branch\＞ ＜\existing-branch\＞
 
+When pushing first time from a branch that was created locally:
+
+> git push --set-upstream origin \<branch-name\>
 
 Checkout to a remote branch:
 
