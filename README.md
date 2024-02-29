@@ -2,25 +2,47 @@
 DAIS protocol for contributions. Here you can find the guidelines for participating in a DAIS git-project.
 
 
+Please follow the steps I've included to add changes in a project.
 
-## Coding rules
+## A. Creating a new ISSUE 
 
-**Prototypes**
+### Steps:
 
-**Comments**
+1. Create an Issue describing the new feature or the problem you want to fix.
+2. Claim that you will fix the issue. In the right layout of the issue, you can manage who will be assigned for an issue.
+3. Follow the [steps](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
+to create a branch associated with that issue. It is recommended to create a new branch which starts from the main.
 
-## Creating a new ISSUE
+### Managing branches:
 
-## Steps:
+In general, you can manage your branches locally. Get a list of the existing branches:
 
-1. Create a branch -- associate with an issue
+> git branch
 
-   [steps](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
+Change to your preferred branch:
 
-3. In-branch commits
+> git checkout \<branch-name\>
 
 
-4. Passing updates to main
+Creating a branch from the current branch:
+
+> git checkout -b \<new-branch\>
+
+Specify the name of the branch
+
+> git checkout -b \＜new-branch\＞ ＜\existing-branch\＞
+
+
+Checkout to a remote branch:
+
+> git fetch --all
+> git checkout \＜remotebranch\＞
+
+
+## B. In-branch commits
+
+
+## C. Passing updates to main
 
  -  3.1 Clean commits
 
@@ -40,4 +62,8 @@ Then push this action to remote repository:
 > git push origin -d \<branch-name\>
 
 
- 
+ ## Coding rules
+General comments for the codes overview
+**Prototypes**
+
+**Comments**
